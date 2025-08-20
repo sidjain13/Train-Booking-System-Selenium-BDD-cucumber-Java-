@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 06 12:05:05 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27069 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check logout button on home page", "Checking Login Module"</td>
+<td><div><pre>java.lang.AssertionError: Logout button is not present on the home page per the application&apos;s design.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepDefinations.LoginStepDefinitions.user_click_on_logout_button(LoginStepDefinitions.java:201)
+	at ✽.user click on logout button(file:///D:/MITS/jobs/cognizant%202025/internship%20virtual/teckstack/sprint%202/Train%20Ticket%20Booking%20System/TrainTicketBooking/src/test/java/features/Login.feature:137)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1029519749", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1029519749'><pre>java.lang.AssertionError: Logout button is not present on the home page per the application&apos;s design.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepDefinations.LoginStepDefinitions.user_click_on_logout_button(LoginStepDefinitions.java:201)
+	at ✽.user click on logout button(file:///D:/MITS/jobs/cognizant%202025/internship%20virtual/teckstack/sprint%202/Train%20Ticket%20Booking%20System/TrainTicketBooking/src/test/java/features/Login.feature:137)
+</pre></div></td>
+<td>10</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking for signup using google functionality", "Checking Login Module"</td>
+<td><div><pre>java.lang.AssertionError: User not redirected to home page. expected [TrainReservation] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at stepDefinations.LoginStepDefinitions.i_should_be_redirected_to_the_home_page(LoginStepDefinitions.java:98)
+	at ✽.user should be redirected to the home page(file:///D:/MITS/jobs/cognizant%202025/internship%20virtual/teckstack/sprint%202/Train%20Ticket%20Booking%20System/TrainTicketBooking/src/test/java/features/Login.feature:102)
+</pre></div><a href='#' onClick='toggleBox("stack-trace994863094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace994863094'><pre>java.lang.AssertionError: User not redirected to home page. expected [TrainReservation] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at stepDefinations.LoginStepDefinitions.i_should_be_redirected_to_the_home_page(LoginStepDefinitions.java:98)
+	at ✽.user should be redirected to the home page(file:///D:/MITS/jobs/cognizant%202025/internship%20virtual/teckstack/sprint%202/Train%20Ticket%20Booking%20System/TrainTicketBooking/src/test/java/features/Login.feature:102)
+</pre></div></td>
+<td>23</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "email validation in reset panel for valid email", "Checking Login Module"</td>
+<td></td>
+<td>8</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Checking Login Module"</td>
+<td></td>
+<td>24</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "email validation in reset panel for valid email", "Checking Login Module"</td>
+<td></td>
+<td>8</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate empty password error message", "Checking Login Module"</td>
+<td></td>
+<td>23</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate empty username error message", "Checking Login Module"</td>
+<td></td>
+<td>16</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate invalid password error message", "Checking Login Module"</td>
+<td></td>
+<td>15</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "checking remember me functiality", "Checking Login Module"</td>
+<td></td>
+<td>23</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "email validation in reset panel for valid email", "Checking Login Module"</td>
+<td></td>
+<td>8</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate empty captcha error message", "Checking Login Module"</td>
+<td></td>
+<td>15</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "checking for forgot your password", "Checking Login Module"</td>
+<td></td>
+<td>15</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "email validation in reset panel for valid email", "Checking Login Module"</td>
+<td></td>
+<td>7</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate invalid captcha error message", "Checking Login Module"</td>
+<td></td>
+<td>15</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "email validation in reset panel for valid email", "Checking Login Module"</td>
+<td></td>
+<td>8</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate invalid username error message", "Checking Login Module"</td>
+<td></td>
+<td>16</td>
+<td>runner.LoginRunner@2c88b9fc</td></tr>
+</table><p>
+</body>
+</html>

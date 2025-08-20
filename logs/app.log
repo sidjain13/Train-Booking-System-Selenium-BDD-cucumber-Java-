@@ -1,0 +1,220 @@
+2025-08-06 12:05:05.097 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-08-06 12:05:05.113 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2025-08-06 12:05:05.117 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.117 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.120 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.121 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2025-08-06 12:05:05.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.133 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.133 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.133 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.135 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.141 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.141 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.142 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.142 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.144 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.144 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.145 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.145 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-08-06 12:05:05.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.150 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.150 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.150 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-08-06 12:05:05.150 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-08-06 12:05:05.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\H.P\AppData\Local\Temp\testng-eclipse-468205192\testng-customsuite.xml
+
+2025-08-06 12:05:05.184 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2025-08-06 12:05:06.601 [TestNG-PoolService-7] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.601 [TestNG-PoolService-2] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.600 [TestNG-PoolService-3] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.600 [TestNG-PoolService-5] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.600 [TestNG-PoolService-4] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.601 [TestNG-PoolService-6] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.601 [TestNG-PoolService-9] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.601 [TestNG-PoolService-1] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.600 [TestNG-PoolService-8] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:06.601 [TestNG-PoolService-0] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:13.395 [TestNG-PoolService-3] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.399 [TestNG-PoolService-2] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.459 [TestNG-PoolService-0] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.527 [TestNG-PoolService-9] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.532 [TestNG-PoolService-7] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.544 [TestNG-PoolService-4] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.557 [TestNG-PoolService-8] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.558 [TestNG-PoolService-1] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.580 [TestNG-PoolService-6] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:13.583 [TestNG-PoolService-5] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:14.338 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:14.415 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:14.476 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:14.482 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:14.496 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:14.554 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:16.156 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:16.297 [TestNG-PoolService-8] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:16.344 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:16.346 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:16.371 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Entering username: admin
+2025-08-06 12:05:16.399 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Entering username: 
+2025-08-06 12:05:16.421 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Entering username 'admin' and password 'admin'
+2025-08-06 12:05:16.421 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Entering username 'admin' and password 'admin'
+2025-08-06 12:05:16.421 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Entering username 'admin' and password 'admin'
+2025-08-06 12:05:16.425 [TestNG-PoolService-8] INFO  stepDefinations.LoginStepDefinitions - Clicking on 'Signup using Google'
+2025-08-06 12:05:16.429 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Entering username: wrongUser
+2025-08-06 12:05:16.436 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Entering username: admin
+2025-08-06 12:05:16.448 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Entering username 'admin' and password 'admin'
+2025-08-06 12:05:16.448 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Clicking on 'Click here to reset'
+2025-08-06 12:05:16.842 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Entering password: admin
+2025-08-06 12:05:16.842 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Entering password: wrongPassword
+2025-08-06 12:05:16.873 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Entering password: admin
+2025-08-06 12:05:16.875 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Entering password: 
+2025-08-06 12:05:17.396 [TestNG-PoolService-8] INFO  stepDefinations.LoginStepDefinitions - Switching to new window for Google signup
+2025-08-06 12:05:17.469 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Entering captcha: 
+2025-08-06 12:05:17.553 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Entering captcha: invalidCaptcha
+2025-08-06 12:05:17.627 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Entering valid captcha: PuAEQY7
+2025-08-06 12:05:17.632 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to reset panel. Current title: Document
+2025-08-06 12:05:17.750 [TestNG-PoolService-7] INFO  hooks.Setup - Scenario passed: 'checking for forgot your password'
+2025-08-06 12:05:17.762 [TestNG-PoolService-7] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:17.932 [TestNG-PoolService-8] INFO  stepDefinations.LoginStepDefinitions - Verifying signup page title. Actual: Gmail Style Login page
+2025-08-06 12:05:17.945 [TestNG-PoolService-8] INFO  stepDefinations.LoginStepDefinitions - Entering email 'a@a.com' in signup page
+2025-08-06 12:05:18.131 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Entering valid captcha: qnEnDdt
+2025-08-06 12:05:18.179 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Entering valid captcha: qPb3ms4
+2025-08-06 12:05:18.196 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Entering valid captcha: xXdufOZ
+2025-08-06 12:05:18.214 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Entering valid captcha: HtZ3WF6
+2025-08-06 12:05:18.222 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Entering valid captcha: MNm34nJ
+2025-08-06 12:05:18.279 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.464 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.617 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.940 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.941 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.941 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.941 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.943 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:18.943 [TestNG-PoolService-8] INFO  stepDefinations.LoginStepDefinitions - Clicking 'Next' button on signup page and switching back to parent window
+2025-08-06 12:05:18.983 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Verifying captcha error message from alert. Actual: invalid input
+2025-08-06 12:05:19.024 [TestNG-PoolService-3] INFO  hooks.Setup - Scenario passed: 'To validate invalid captcha error message'
+2025-08-06 12:05:19.024 [TestNG-PoolService-3] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:19.246 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Verifying captcha error message from alert. Actual: Please Enter The code
+2025-08-06 12:05:19.286 [TestNG-PoolService-6] INFO  hooks.Setup - Scenario passed: 'To validate empty captcha error message'
+2025-08-06 12:05:19.287 [TestNG-PoolService-6] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:19.437 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:19.495 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Clicking remember me checkbox.
+2025-08-06 12:05:19.507 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:19.530 [TestNG-PoolService-8] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to home page
+2025-08-06 12:05:19.683 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Clicking on login button
+2025-08-06 12:05:19.683 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:19.823 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:19.814 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:19.823 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:19.962 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Clicking on login button
+2025-08-06 12:05:19.964 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Clicking on login button
+2025-08-06 12:05:19.964 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Clicking on login button
+2025-08-06 12:05:19.966 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Clicking on login button
+2025-08-06 12:05:19.973 [TestNG-PoolService-8] ERROR hooks.Setup - Scenario failed: 'Checking for signup using google functionality'. Capturing screenshot.
+2025-08-06 12:05:20.142 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:20.168 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:20.195 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Clicking on login button
+2025-08-06 12:05:20.323 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:20.397 [TestNG-PoolService-0] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to home page
+2025-08-06 12:05:20.403 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Verifying password error message. Actual: Password is wrong
+2025-08-06 12:05:20.408 [TestNG-PoolService-2] INFO  hooks.Setup - Scenario passed: 'To validate invalid password error message'
+2025-08-06 12:05:20.410 [TestNG-PoolService-2] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:20.426 [TestNG-PoolService-8] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:20.483 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Verifying username error message. Actual: Username cannot be empty
+2025-08-06 12:05:20.483 [TestNG-PoolService-5] INFO  stepDefinations.LoginStepDefinitions - Verifying password error message. Actual: Password cannot be empty
+2025-08-06 12:05:20.494 [TestNG-PoolService-4] INFO  hooks.Setup - Scenario passed: 'To validate empty username error message'
+2025-08-06 12:05:20.495 [TestNG-PoolService-5] INFO  hooks.Setup - Scenario passed: 'To validate empty password error message'
+2025-08-06 12:05:20.495 [TestNG-PoolService-4] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:20.496 [TestNG-PoolService-5] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:20.547 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Verifying username error message. Actual: Username is wrong
+2025-08-06 12:05:20.554 [TestNG-PoolService-1] INFO  hooks.Setup - Scenario passed: 'To validate invalid username error message'
+2025-08-06 12:05:20.556 [TestNG-PoolService-1] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:20.696 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:20.806 [TestNG-PoolService-9] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to home page
+2025-08-06 12:05:21.276 [TestNG-PoolService-6] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:21.708 [TestNG-PoolService-7] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:21.945 [TestNG-PoolService-0] INFO  hooks.Setup - Scenario passed: 'Successful login with valid credentials'
+2025-08-06 12:05:21.945 [TestNG-PoolService-0] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:22.074 [TestNG-PoolService-2] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:22.076 [TestNG-PoolService-3] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:22.418 [TestNG-PoolService-4] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:22.929 [TestNG-PoolService-6] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:23.048 [TestNG-PoolService-1] INFO  hooks.Setup - Initializing WebDriver...
+2025-08-06 12:05:23.211 [TestNG-PoolService-9] INFO  hooks.Setup - Scenario passed: 'checking remember me functiality'
+2025-08-06 12:05:23.212 [TestNG-PoolService-9] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:23.596 [TestNG-PoolService-7] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:23.960 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:24.016 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Entering username 'admin' and password 'admin'
+2025-08-06 12:05:25.082 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:25.401 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Clicking on 'Click here to reset'
+2025-08-06 12:05:25.535 [TestNG-PoolService-4] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:25.559 [TestNG-PoolService-3] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:25.928 [TestNG-PoolService-2] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:26.205 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:26.310 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:26.493 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Entering valid captcha: ooeaJY0
+2025-08-06 12:05:27.038 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:27.044 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Clicking on 'Click here to reset'
+2025-08-06 12:05:27.066 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Clicking on 'Click here to reset'
+2025-08-06 12:05:27.089 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to reset panel. Current title: Document
+2025-08-06 12:05:27.106 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Clicking on 'Click here to reset'
+2025-08-06 12:05:27.156 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Entering email 'ram@gmail.com' in reset panel
+2025-08-06 12:05:27.240 [TestNG-PoolService-1] INFO  hooks.Setup - WebDriver initialized successfully for browser: chrome
+2025-08-06 12:05:27.453 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Clicking on validate button
+2025-08-06 12:05:27.753 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Clicking on reset password button
+2025-08-06 12:05:27.974 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to reset panel. Current title: Document
+2025-08-06 12:05:27.977 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to reset panel. Current title: Document
+2025-08-06 12:05:28.017 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Entering email 'jfaklsdjfasj' in reset panel
+2025-08-06 12:05:28.033 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Entering email '' in reset panel
+2025-08-06 12:05:28.051 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:28.061 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to reset panel. Current title: Document
+2025-08-06 12:05:28.081 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Navigated to login page: https://webapps.tekstac.com/SeleniumApp1/TrainReservation/login.html
+2025-08-06 12:05:28.090 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Clicking on login button
+2025-08-06 12:05:28.123 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Clicking on 'Click here to reset'
+2025-08-06 12:05:28.127 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Entering email 'asdfas' in reset panel
+2025-08-06 12:05:28.324 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Accepting alert on reset panel page.
+2025-08-06 12:05:28.533 [TestNG-PoolService-7] INFO  stepDefinations.LoginStepDefinitions - Message received on reset panel: Username: 'admin' and password: 'admin#123
+2025-08-06 12:05:28.544 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Accepting alert popup
+2025-08-06 12:05:28.546 [TestNG-PoolService-7] INFO  hooks.Setup - Scenario passed: 'email validation in reset panel for valid email'
+2025-08-06 12:05:28.546 [TestNG-PoolService-7] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:28.565 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Clicking on reset password button
+2025-08-06 12:05:28.620 [TestNG-PoolService-6] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to home page
+2025-08-06 12:05:28.636 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Clicking on reset password button
+2025-08-06 12:05:28.793 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Clicking on reset password button
+2025-08-06 12:05:28.902 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Verifying redirection to reset panel. Current title: Document
+2025-08-06 12:05:28.941 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Entering email 'kajsdklfjkalsjdfklajf' in reset panel
+2025-08-06 12:05:29.244 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Clicking on reset password button
+2025-08-06 12:05:30.016 [TestNG-PoolService-6] ERROR stepDefinations.LoginStepDefinitions - Step 'user click on logout button' is intentionally failed as element is missing from the application.
+2025-08-06 12:05:30.026 [TestNG-PoolService-6] ERROR hooks.Setup - Scenario failed: 'check logout button on home page'. Capturing screenshot.
+2025-08-06 12:05:30.115 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - No alert was present on reset panel page.
+2025-08-06 12:05:30.115 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - No alert was present on reset panel page.
+2025-08-06 12:05:30.172 [TestNG-PoolService-3] INFO  stepDefinations.LoginStepDefinitions - Message received on reset panel: **Fill the password please!
+2025-08-06 12:05:30.172 [TestNG-PoolService-4] INFO  stepDefinations.LoginStepDefinitions - Message received on reset panel: Invalid Email
+2025-08-06 12:05:30.175 [TestNG-PoolService-3] INFO  hooks.Setup - Scenario passed: 'email validation in reset panel for valid email'
+2025-08-06 12:05:30.175 [TestNG-PoolService-4] INFO  hooks.Setup - Scenario passed: 'email validation in reset panel for valid email'
+2025-08-06 12:05:30.175 [TestNG-PoolService-3] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:30.175 [TestNG-PoolService-4] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:30.181 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - No alert was present on reset panel page.
+2025-08-06 12:05:30.279 [TestNG-PoolService-2] INFO  stepDefinations.LoginStepDefinitions - Message received on reset panel: **Password length must be greater 8 characters
+2025-08-06 12:05:30.282 [TestNG-PoolService-2] INFO  hooks.Setup - Scenario passed: 'email validation in reset panel for valid email'
+2025-08-06 12:05:30.282 [TestNG-PoolService-2] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:30.504 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - No alert was present on reset panel page.
+2025-08-06 12:05:30.583 [TestNG-PoolService-1] INFO  stepDefinations.LoginStepDefinitions - Message received on reset panel: **Password length must not exceed 20 characters
+2025-08-06 12:05:30.583 [TestNG-PoolService-1] INFO  hooks.Setup - Scenario passed: 'email validation in reset panel for valid email'
+2025-08-06 12:05:30.583 [TestNG-PoolService-1] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:30.890 [TestNG-PoolService-6] INFO  hooks.Setup - Closing WebDriver.
+2025-08-06 12:05:32.333 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5349b246: 0 ms
+2025-08-06 12:05:32.385 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6242ae3b: 52 ms
+2025-08-06 12:05:32.503 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@48904d5a: 118 ms
+2025-08-06 12:05:32.531 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@490c7a83: 25 ms
+2025-08-06 12:05:32.551 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6cd64b3f: 20 ms
+2025-08-06 12:05:32.563 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@37637a24: 12 ms
+2025-08-06 12:05:32.579 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@120d3fd: 16 ms

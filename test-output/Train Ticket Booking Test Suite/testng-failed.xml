@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Train Ticket Booking Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Cucumber Tests(failed)">
+    <classes>
+      <class name="runner.LoginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 32 33 2 34 35 36 37 6 38 39 40 15 17 24 25 28 29 30 31"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.LoginRunner -->
+    </classes>
+  </test> <!-- Cucumber Tests(failed) -->
+</suite> <!-- Failed suite [Train Ticket Booking Test Suite] -->

@@ -1,0 +1,2724 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 30, 2025 07:34:59 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@invalidTrainNumber</a><a class="dropdown-item" href="#">@validTrainSearch</a><a class="dropdown-item" href="#">@editableTable</a><a class="dropdown-item" href="#">@stringInput</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Train Enquiry Contact Form</p>
+            <p class="text-sm">
+              <span>7:35:00 pm</span> / <span>00:00:18:028</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Train Enquiry Contact Form</h5>
+<span class='badge badge-success'>07.30.2025 7:35:00 pm</span>
+<span class='badge badge-danger'>07.30.2025 7:35:18 pm</span>
+<span class='badge badge-default'>00:00:18:028</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to send enquiry about trains using contact form</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Submit enquiry without name</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_am_on_the_enquiry_page()">
+                <span>Given I am on the enquiry page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_email_field(java.lang.String)">
+                <span>When I enter "john@email.com" in email field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_message_field(java.lang.String)">
+                <span>And I enter "My enquiry message" in message field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_click_send_button()">
+                <span>And I click send button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_error_for_name_field()">
+                <span>Then I should see error for name field</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Submit enquiry without email</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_am_on_the_enquiry_page()">
+                <span>Given I am on the enquiry page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_full_name_field(java.lang.String)">
+                <span>When I enter "John Smith" in full name field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_message_field(java.lang.String)">
+                <span>And I enter "My enquiry message" in message field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_click_send_button()">
+                <span>And I click send button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_error_for_email_field()">
+                <span>Then I should see error for email field</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Open enquiry page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_open_the_enquiry_page(java.lang.String)">
+                <span>Given I open the enquiry page "https://webapps.tekstac.com/SeleniumApp1/TrainReservation/contactus.html"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_text(java.lang.String)">
+                <span>Then I should see "For Train Enquiry Please Contact Us" text</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_the_enquiry_form()">
+                <span>And I should see the enquiry form</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="5"><span class="badge log fail-bg mr-2">Fail</span>Submit enquiry with valid details</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_am_on_the_enquiry_page()">
+                <span>Given I am on the enquiry page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_full_name_field(java.lang.String)">
+                <span>When I enter "John Smith" in full name field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_email_field(java.lang.String)">
+                <span>And I enter "john@email.com" in email field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_message_field(java.lang.String)">
+                <span>And I enter "I want to enquire about train timings from Delhi to Mumbai" in message field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_click_send_button()">
+                <span>And I click send button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinations.EnquiryStepDefinations.enquiry_should_be_submitted_successfully()">
+                <span>Then enquiry should be submitted successfully</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Success message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.EnquiryStepDefinations.enquiry_should_be_submitted_successfully(EnquiryStepDefinations.java:99)
+	at ✽.enquiry should be submitted successfully(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/Enquiry.feature:22)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Check enquiry form fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_am_on_the_enquiry_page()">
+                <span>Given I am on the enquiry page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_field(java.lang.String)">
+                <span>Then I should see "Full name" field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_field(java.lang.String)">
+                <span>And I should see "Email Address" field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_field(java.lang.String)">
+                <span>And I should see "Message" field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_button(java.lang.String)">
+                <span>And I should see "Send" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Submit enquiry without message</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_am_on_the_enquiry_page()">
+                <span>Given I am on the enquiry page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_full_name_field(java.lang.String)">
+                <span>When I enter "John Smith" in full name field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_enter_in_email_field(java.lang.String)">
+                <span>And I enter "john@email.com" in email field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_click_send_button()">
+                <span>And I click send button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_error_for_message_field()">
+                <span>Then I should see error for message field</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="11"><span class="badge log fail-bg mr-2">Fail</span>Submit empty enquiry form</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_am_on_the_enquiry_page()">
+                <span>Given I am on the enquiry page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.EnquiryStepDefinations.i_click_send_button()">
+                <span>When I click send button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinations.EnquiryStepDefinations.i_should_see_validation_errors()">
+                <span>Then I should see validation errors</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Email error was not visible. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.EnquiryStepDefinations.i_should_see_validation_errors(EnquiryStepDefinations.java:125)
+	at ✽.I should see validation errors(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/Enquiry.feature:48)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Checking Login Module</p>
+            <p class="text-sm">
+              <span>7:35:00 pm</span> / <span>00:00:49:073</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Checking Login Module</h5>
+<span class='badge badge-success'>07.30.2025 7:35:00 pm</span>
+<span class='badge badge-danger'>07.30.2025 7:35:49 pm</span>
+<span class='badge badge-default'>00:00:49:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>To validate invalid password error message</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_username_as(java.lang.String)">
+                <span>When user enters a username as "admin"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_password_as(java.lang.String)">
+                <span>And user enters a password as "wrongPassword"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_captcha()">
+                <span>And user enter a valid captcha</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_click_on_the_login_button()">
+                <span>And user click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.password_error_message_should_be_displayed()">
+                <span>Then password error message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>To validate invalid username error message</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_username_as(java.lang.String)">
+                <span>When user enters a username as "wrongUser"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_password_as(java.lang.String)">
+                <span>And user enters a password as "admin"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_captcha()">
+                <span>And user enter a valid captcha</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_click_on_the_login_button()">
+                <span>And user click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.username_error_message_should_be_displayed()">
+                <span>Then username error message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Successful login with valid credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_username_and_password(io.cucumber.datatable.DataTable)">
+                <span>When user enter a valid username and password</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>admin</td><td>admin</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_captcha()">
+                <span>And user enter a valid captcha</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_click_on_the_login_button()">
+                <span>And user click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_should_be_redirected_to_the_home_page()">
+                <span>Then user should be redirected to the home page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="82"><span class="badge log pass-bg mr-2">Pass</span>To validate invalid captcha error message</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_username_and_password(io.cucumber.datatable.DataTable)">
+                <span>When user enter a valid username and password</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>admin</td><td>admin</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enter_a_captcha_as(java.lang.String)">
+                <span>And user enter a captcha as "invalidCaptcha"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.captcha_error_message_should_be_displayed()">
+                <span>Then captcha error message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="90"><span class="badge log pass-bg mr-2">Pass</span>To validate empty username error message</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_username_as(java.lang.String)">
+                <span>When user enters a username as ""</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_password_as(java.lang.String)">
+                <span>And user enters a password as "admin"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_captcha()">
+                <span>And user enter a valid captcha</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_click_on_the_login_button()">
+                <span>And user click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.username_error_message_should_be_displayed()">
+                <span>Then username error message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>To validate empty password error message</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_username_as(java.lang.String)">
+                <span>When user enters a username as "admin"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enters_a_password_as(java.lang.String)">
+                <span>And user enters a password as ""</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_captcha()">
+                <span>And user enter a valid captcha</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_click_on_the_login_button()">
+                <span>And user click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.password_error_message_should_be_displayed()">
+                <span>Then password error message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="94"><span class="badge log pass-bg mr-2">Pass</span>To validate empty captcha error message</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_username_and_password(io.cucumber.datatable.DataTable)">
+                <span>When user enter a valid username and password</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>admin</td><td>admin</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enter_a_captcha_as(java.lang.String)">
+                <span>And user enter a captcha as ""</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.captcha_error_message_should_be_displayed()">
+                <span>Then captcha error message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="96"><span class="badge log pass-bg mr-2">Pass</span>checking for forgot your password</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_click_here_to_reset()">
+                <span>When user click on click here to reset</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_should_be_redirected_to_reset_panel()">
+                <span>Then user should be redirected to reset panel</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="98"><span class="badge log fail-bg mr-2">Fail</span>Checking for signup using google functionality</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_signup_using_google()">
+                <span>When user click on signup using google</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_should_be_redirected_to_singup_using_goggle_page()">
+                <span>And user should be redirected to singup using goggle page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_enter_the_email_in_signup_page(java.lang.String)">
+                <span>And user enter the email in signup page as "a@a.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.click_on_next_button_in_signup_page()">
+                <span>And click on next button in signup page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinations.LoginStepDefinitions.i_should_be_redirected_to_the_home_page()">
+                <span>Then user should be redirected to the home page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: User not redirected to home page. expected [TrainReservation] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at stepDefinations.LoginStepDefinitions.i_should_be_redirected_to_the_home_page(LoginStepDefinitions.java:98)
+	at ✽.user should be redirected to the home page(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/Login.feature:100)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="101"><span class="badge log pass-bg mr-2">Pass</span>checking remember me functiality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_username_and_password(io.cucumber.datatable.DataTable)">
+                <span>When user enter a valid username and password</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>admin</td><td>admin</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_captcha()">
+                <span>And user enter a valid captcha</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_remember_me_button()">
+                <span>And user click on remember me button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_click_on_the_login_button()">
+                <span>And user click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_should_be_redirected_to_the_home_page()">
+                <span>Then user should be redirected to the home page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="104"><span class="badge log fail-bg mr-2">Fail</span>check logout button on home page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_is_on_login_page()">
+                <span>Given user is on login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_username_and_password(io.cucumber.datatable.DataTable)">
+                <span>When user enter a valid username and password</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>admin</td><td>admin</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_enter_a_valid_captcha()">
+                <span>And user enter a valid captcha</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_validate()">
+                <span>And user click on validate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_click_on_the_login_button()">
+                <span>And user click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_am_accepting_the_alert()">
+                <span>And user accepting the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.LoginStepDefinitions.i_should_be_redirected_to_the_home_page()">
+                <span>And user should be redirected to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinations.LoginStepDefinitions.user_click_on_logout_button()">
+                <span>And user click on logout button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Logout button is not present on the home page per the application's design.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepDefinations.LoginStepDefinitions.user_click_on_logout_button(LoginStepDefinitions.java:201)
+	at ✽.user click on logout button(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/Login.feature:135)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinations.LoginStepDefinitions.user_should_be_redirected_to_login_page()">
+                <span>Then user should be redirected to login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="153"><span class="badge log fail-bg mr-2">Fail</span>email validation in reset panel for valid email</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="154"><span class="badge log pass-bg mr-2">Pass</span>email validation in reset panel for valid email</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on click here to reset</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be redirected to reset panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters email as "ram@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on reset password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user accepting the alert if any</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user get a password when email is valid and any error msg if email is invalid</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="159"><span class="badge log pass-bg mr-2">Pass</span>email validation in reset panel for valid email</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on click here to reset</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be redirected to reset panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters email as ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on reset password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user accepting the alert if any</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user get a password when email is valid and any error msg if email is invalid</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="161"><span class="badge log pass-bg mr-2">Pass</span>email validation in reset panel for valid email</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on click here to reset</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be redirected to reset panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters email as "asdfas"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on reset password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user accepting the alert if any</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user get a password when email is valid and any error msg if email is invalid</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="166"><span class="badge log pass-bg mr-2">Pass</span>email validation in reset panel for valid email</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on click here to reset</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be redirected to reset panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters email as "jfaklsdjfasj"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on reset password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user accepting the alert if any</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user get a password when email is valid and any error msg if email is invalid</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="169"><span class="badge log pass-bg mr-2">Pass</span>email validation in reset panel for valid email</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on click here to reset</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be redirected to reset panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters email as "kajsdklfjkalsjdfklajf"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on reset password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user accepting the alert if any</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user get a password when email is valid and any error msg if email is invalid</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="244"><span class="badge log fail-bg mr-2">Fail</span>Phone Number Format Validation - 123</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid phone number "123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Phone number format validation should trigger</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Phone validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.validate_phone_format(TicketBookingSteps.java:299)
+	at ✽.Phone number format validation should trigger(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:16)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded8.png' src="../Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="257"><span class="badge log fail-bg mr-2">Fail</span>Phone Number Format Validation - 123456789</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid phone number "123456789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Phone number format validation should trigger</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Phone validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.validate_phone_format(TicketBookingSteps.java:299)
+	at ✽.Phone number format validation should trigger(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:16)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded13.png' src="../Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="302"><span class="badge log fail-bg mr-2">Fail</span>Invalid Number of Passengers Input - -1</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid passenger count "-1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Passenger count validation message should appear</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Passenger count validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.passenger_count_validation_message_should_appear(TicketBookingSteps.java:345)
+	at ✽.Passenger count validation message should appear(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:47)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded19.png' src="../Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="174"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Train Search Functionality</p>
+            <p class="text-sm">
+              <span>7:35:20 pm</span> / <span>00:00:08:866</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Train Search Functionality</h5>
+<span class='badge badge-success'>07.30.2025 7:35:20 pm</span>
+<span class='badge badge-danger'>07.30.2025 7:35:29 pm</span>
+<span class='badge badge-default'>00:00:08:866</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=174</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="175"><span class="badge log pass-bg mr-2">Pass</span>Train search using a valid train number</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.user_is_on_train_search_page()">
+                <span>Given the user is on the Train Search page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.user_enters_train_input(java.lang.String)">
+                <span>When the user enters train input "12801"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.train_details_should_appear(java.lang.String)">
+                <span>Then train details containing "PURI - NEW DELHI Purushottam SF Express" should appear</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="207"><span class="badge log fail-bg mr-2">Fail</span>No error message for invalid train number</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.user_is_on_train_search_page()">
+                <span>Given the user is on the Train Search page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.user_enters_train_input(java.lang.String)">
+                <span>When the user enters train input "00000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinations.TrainSearchStepDefinition.error_message_should_be_shown()">
+                <span>Then an appropriate error message should be shown</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Test failed as expected due to application bug: No specific error message element is shown.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepDefinations.TrainSearchStepDefinition.error_message_should_be_shown(TrainSearchStepDefinition.java:129)
+	at ✽.an appropriate error message should be shown(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/TrainSearch.feature:27)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="223"><span class="badge log fail-bg mr-2">Fail</span>Train Search Field Does Not Accept Train Names (Strings)</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.user_is_on_train_search_page()">
+                <span>Given the user is on the Train Search page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.user_enters_train_input(java.lang.String)">
+                <span>When the user enters train input "Rajdhani"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinations.TrainSearchStepDefinition.error_message_should_be_shown()">
+                <span>Then an appropriate error message should be shown</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Test failed as expected due to application bug: No specific error message element is shown.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepDefinations.TrainSearchStepDefinition.error_message_should_be_shown(TrainSearchStepDefinition.java:129)
+	at ✽.an appropriate error message should be shown(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/TrainSearch.feature:33)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="225"><span class="badge log pass-bg mr-2">Pass</span>Table field cell names are editable</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.train_results_in_table()">
+                <span>Given the train results are displayed in a table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.TrainSearchStepDefinition.the_table_fields_should_be_not_be_editable()">
+                <span>Then the table fields should be not be editable</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="230"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Train Ticket Booking</p>
+            <p class="text-sm">
+              <span>7:35:25 pm</span> / <span>00:00:25:555</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Train Ticket Booking</h5>
+<span class='badge badge-success'>07.30.2025 7:35:25 pm</span>
+<span class='badge badge-danger'>07.30.2025 7:35:51 pm</span>
+<span class='badge badge-default'>00:00:25:555</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=230</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="231"><span class="badge log fail-bg mr-2">Fail</span>Validate Required Fields - <test_case></div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="232"><span class="badge log pass-bg mr-2">Pass</span>Validate Required Fields - Empty Fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User leaves required fields blank and clicks Book</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Error messages should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="286"><span class="badge log fail-bg mr-2">Fail</span>Date Field Invalid String Input - 32/13/2025</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid string "32/13/2025" in date field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Date validation message should appear for invalid format</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Invalid date format validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.date_validation_message_should_appear_for_invalid_format(TicketBookingSteps.java:329)
+	at ✽.Date validation message should appear for invalid format(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:37)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded18.png' src="../Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="238"><span class="badge log fail-bg mr-2">Fail</span>Phone Number Format Validation - <phone_number></div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="239"><span class="badge log fail-bg mr-2">Fail</span>Phone Number Format Validation - abc123</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid phone number "abc123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Phone number format validation should trigger</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Phone validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.validate_phone_format(TicketBookingSteps.java:299)
+	at ✽.Phone number format validation should trigger(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:16)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded9.png' src="../Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="259"><span class="badge log fail-bg mr-2">Fail</span>Phone Number Format Validation - +91-1234567890</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid phone number "+91-1234567890"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Phone number format validation should trigger</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Phone validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.validate_phone_format(TicketBookingSteps.java:299)
+	at ✽.Phone number format validation should trigger(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:16)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded10.png' src="../Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="306"><span class="badge log fail-bg mr-2">Fail</span>Invalid Number of Passengers Input - 100</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid passenger count "100"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Passenger count validation message should appear</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Passenger count validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.passenger_count_validation_message_should_appear(TicketBookingSteps.java:345)
+	at ✽.Passenger count validation message should appear(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:47)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded16.png' src="../Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="261"><span class="badge log fail-bg mr-2">Fail</span>Date Field Past Date Validation - <past_date></div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="262"><span class="badge log fail-bg mr-2">Fail</span>Date Field Past Date Validation - 01/01/2022</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters past date "01/01/2022" in date field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Date validation message should appear</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Past date validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.validate_date_format(TicketBookingSteps.java:314)
+	at ✽.Date validation message should appear(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:27)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="264"><span class="badge log fail-bg mr-2">Fail</span>Date Field Past Date Validation - 15/03/2023</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters past date "15/03/2023" in date field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Date validation message should appear</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Past date validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.validate_date_format(TicketBookingSteps.java:314)
+	at ✽.Date validation message should appear(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:27)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded11.png' src="../Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="266"><span class="badge log fail-bg mr-2">Fail</span>Date Field Past Date Validation - 01/01/1999</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters past date "01/01/1999" in date field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Date validation message should appear</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Past date validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.validate_date_format(TicketBookingSteps.java:314)
+	at ✽.Date validation message should appear(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:27)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded14.png' src="../Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="268"><span class="badge log fail-bg mr-2">Fail</span>Date Field Invalid String Input - <invalid_date_string></div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="269"><span class="badge log fail-bg mr-2">Fail</span>Date Field Invalid String Input - a@123</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid string "a@123" in date field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Date validation message should appear for invalid format</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Invalid date format validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.date_validation_message_should_appear_for_invalid_format(TicketBookingSteps.java:329)
+	at ✽.Date validation message should appear for invalid format(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:37)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded17.png' src="../Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="271"><span class="badge log fail-bg mr-2">Fail</span>Date Field Invalid String Input - notadate</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid string "notadate" in date field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Date validation message should appear for invalid format</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Invalid date format validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.date_validation_message_should_appear_for_invalid_format(TicketBookingSteps.java:329)
+	at ✽.Date validation message should appear for invalid format(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:37)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded12.png' src="../Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="299"><span class="badge log fail-bg mr-2">Fail</span>Invalid Number of Passengers Input - <passenger_count_input></div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="300"><span class="badge log fail-bg mr-2">Fail</span>Invalid Number of Passengers Input - abc</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters invalid passenger count "abc"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Passenger count validation message should appear</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Passenger count validation message not found. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at stepDefinations.TicketBookingSteps.passenger_count_validation_message_should_appear(TicketBookingSteps.java:345)
+	at ✽.Passenger count validation message should appear(file:///D:/CODES/Cognizant/Sprint%20Workspace/TrainTicketBooking/src/test/java/features/booking.feature:47)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Setup.tearDown(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded15.png' src="../Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="322"><span class="badge log pass-bg mr-2">Pass</span>Check Reset Button Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinations.TicketBookingSteps.user_is_on_booking_page()">
+                <span>Given User is on Ticket Booking page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.TicketBookingSteps.user_fills_some_details_and_clicks_reset()">
+                <span>When User fills some details and clicks Reset</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinations.TicketBookingSteps.all_fields_should_be_cleared()">
+                <span>Then All fields should be cleared</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>19</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">19 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>19 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>Then I should see validation errors</a>
+<div class="">
+<span class="badge badge-default">Train Enquiry Contact Form.Submit empty enquiry form.Then I should see validation errors</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='85'>Then enquiry should be submitted successfully</a>
+<div class="">
+<span class="badge badge-default">Train Enquiry Contact Form.Submit enquiry with valid details.Then enquiry should be submitted successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='123'>Then user should be redirected to the home page</a>
+<div class="">
+<span class="badge badge-default">Checking Login Module.Checking for signup using google functionality.Then user should be redirected to the home page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='220'>And user click on logout button</a>
+<div class="">
+<span class="badge badge-default">Checking Login Module.check logout button on home page.And user click on logout button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='174' id='250'>Then an appropriate error message should be shown</a>
+<div class="">
+<span class="badge badge-default">Train Search Functionality.No error message for invalid train number.Then an appropriate error message should be shown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='174' id='251'>Then an appropriate error message should be shown</a>
+<div class="">
+<span class="badge badge-default">Train Search Functionality.Train Search Field Does Not Accept Train Names (Strings).Then an appropriate error message should be shown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='289'>Then Date validation message should appear</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Date Field Past Date Validation - 01/01/2022.Then Date validation message should appear</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='291'>Then Phone number format validation should trigger</a>
+<div class="">
+<span class="badge badge-default">Checking Login Module.Phone Number Format Validation - 123.Then Phone number format validation should trigger</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='294'>Then Phone number format validation should trigger</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Phone Number Format Validation - abc123.Then Phone number format validation should trigger</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='297'>Then Phone number format validation should trigger</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Phone Number Format Validation - +91-1234567890.Then Phone number format validation should trigger</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='314'>Then Date validation message should appear</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Date Field Past Date Validation - 15/03/2023.Then Date validation message should appear</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='316'>Then Date validation message should appear for invalid format</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Date Field Invalid String Input - notadate.Then Date validation message should appear for invalid format</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='318'>Then Phone number format validation should trigger</a>
+<div class="">
+<span class="badge badge-default">Checking Login Module.Phone Number Format Validation - 123456789.Then Phone number format validation should trigger</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='324'>Then Date validation message should appear</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Date Field Past Date Validation - 01/01/1999.Then Date validation message should appear</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:46 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='326'>Then Passenger count validation message should appear</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Invalid Number of Passengers Input - abc.Then Passenger count validation message should appear</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='329'>Then Passenger count validation message should appear</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Invalid Number of Passengers Input - 100.Then Passenger count validation message should appear</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='330'>Then Date validation message should appear for invalid format</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Date Field Invalid String Input - a@123.Then Date validation message should appear for invalid format</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='230' id='333'>Then Date validation message should appear for invalid format</a>
+<div class="">
+<span class="badge badge-default">Train Ticket Booking.Date Field Invalid String Input - 32/13/2025.Then Date validation message should appear for invalid format</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='335'>Then Passenger count validation message should appear</a>
+<div class="">
+<span class="badge badge-default">Checking Login Module.Invalid Number of Passengers Input - -1.Then Passenger count validation message should appear</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@invalidTrainNumber</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@invalidTrainNumber</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='174' id='207'>No error message for invalid train number</a>
+<div class="">
+<span class="badge badge-default">Train Search Functionality.No error message for invalid train number</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validTrainSearch</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validTrainSearch</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:35:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='174' id='175'>Train search using a valid train number</a>
+<div class="">
+<span class="badge badge-default">Train Search Functionality.Train search using a valid train number</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@editableTable</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@editableTable</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:35:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='174' id='225'>Table field cell names are editable</a>
+<div class="">
+<span class="badge badge-default">Train Search Functionality.Table field cell names are editable</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@stringInput</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@stringInput</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:35:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='174' id='223'>Train Search Field Does Not Accept Train Names (Strings)</a>
+<div class="">
+<span class="badge badge-default">Train Search Functionality.Train Search Field Does Not Accept Train Names (Strings)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 30, 2025 07:34:59 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 30, 2025 07:35:51 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>4</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>4</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='54%'><b>23</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='45%'><b>19</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='90%'><b>202</b> steps passed</small></div>
+<div>
+<small data-tooltip='8%'><b>19</b> steps failed,
+<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Train Enquiry Contact Form":18.028,"Checking Login Module":49.073,"Train Search Functionality":8.866,"Train Ticket Booking":25.555
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@invalidTrainNumber</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@validTrainSearch</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@editableTable</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@stringInput</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 4,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 23,
+failChild: 19,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 202,
+failGrandChild: 19,
+warningGrandChild: 0,
+skipGrandChild: 1,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
